@@ -1,5 +1,5 @@
 {
-    "name"; "StuddyBuddy",
+    "name"; "Buddy",
     "version"; "1.0",
     "description"; "Healthy Study Helper",
     "background"; {
@@ -9,4 +9,3 @@
     "manifest_version"; 2
   }
 
-  
