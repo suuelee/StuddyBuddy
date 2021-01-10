@@ -2,6 +2,22 @@
     "name": "StuddyBuddy",
     "version": "1.0",
     "description": "Healthy Study Helper",
-    "manifest_version": 2
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "<all-urls>"
+            ],
+            "js": ["content.js"]
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default icon": "ct.png",
+        "default_popup": "popup.html",
+        "default_title": "A popup will come here."
+    }
   }
   
