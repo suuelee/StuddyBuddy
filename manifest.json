@@ -3,11 +3,10 @@
     "version": "1.0",
     "description": "Healthy Study Helper",
     "manifest_version": 2,
-    "default_title": "Studdy Buddy",
     "icons": {
-        "16": "clock.png",
-        "48": "clock.png",
-        "128": "clock.png"},
+        "16": "16.png",
+        "48": "48.png",
+        "128": "128.png"},
     "content_scripts": [
         {
             "matches": [ "http://*.co.il/*"],
