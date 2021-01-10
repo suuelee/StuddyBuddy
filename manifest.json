@@ -14,8 +14,15 @@
     },
     "browser_action": {
         "default icon": "clock.png",
+        "icons": {
+                "icons": {
+                  "16": "clock.png",
+                  "48": "clock.png",
+                  "128": "clock.png"
+                }
+
+        },
         "default_popup": "popup.html",
-        "default_title": "A popup will come here."
-    }
-  }
+        "default_title": "Studdy Buddy"}
+      }
   
