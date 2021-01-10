@@ -3,6 +3,11 @@
     "version": "1.0",
     "description": "Healthy Study Helper",
     "manifest_version": 2,
+    "default_title": "Studdy Buddy",
+    "icons": {
+        "16": "clock.png",
+        "48": "clock.png",
+        "128": "clock.png"},
     "content_scripts": [
         {
             "matches": [ "http://*.co.il/*"],
@@ -12,17 +17,8 @@
     "background": {
         "scripts": ["background.js"]
     },
-    "browser_action": {
-        "default icon": "clock.png",
-        "icons": {
-                "icons": {
-                  "16": "clock.png",
-                  "48": "clock.png",
-                  "128": "clock.png"
-                }
 
-        },
-        "default_popup": "popup.html",
-        "default_title": "Studdy Buddy"}
+    "browser_action": {
+        "default popup": "clock.png"}
       }
   
