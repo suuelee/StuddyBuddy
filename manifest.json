@@ -5,9 +5,7 @@
     "manifest_version": 2,
     "content_scripts": [
         {
-            "matches": [
-                "<all-urls>"
-            ],
+            "matches": [ "http://*"],
             "js": ["content.js"]
         }
     ],
