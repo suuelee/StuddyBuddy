@@ -15,7 +15,7 @@
         "scripts": ["background.js"]
     },
     "browser_action": {
-        "default icon": "ct.png",
+        "default icon": "clock.png",
         "default_popup": "popup.html",
         "default_title": "A popup will come here."
     }
