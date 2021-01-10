@@ -18,6 +18,6 @@
     },
 
     "browser_action": {
-        "default popup": "clock.png"}
+        "default popup": "popup.html"}
       }
   
